@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-9">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>CalcuMatrix</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<ul class="tabs">
+			<li><a href="#tab1"></span><span class="tab-text">¿Que es una matriz?</span></a></li>
+			<li><a href="#tab2"></span><span class="tab-text">SUMA DE MATRICES 2*2</span></a></li>
+			<li><a href="#tab3"></span><span class="tab-text">SUMA DE MATRICES 3*3</span></a></li>
+			<li><a href="#tab4"></span><span class="tab-text">RESTA DE MATRICES 2*2</span></a></li>
+            <li><a href="#tab5"></span><span class="tab-text">RESTA DE MATRICES 3*3</span></a></li>
+			<li><a href="#tab6"></span><span class="tab-text">MULTIPLICACION DE MATRICES 2*2</span></a></li>
+			<li><a href="#tab7"></span><span class="tab-text">MULTIPLICACION DE MATRICES 3*3</span></a></li>
+            <li><a href="#tab8"></span><span class="tab-text">CALCULAR UNA DETERMINANTE DE UNA MATRIZ DE 2*2 </span></a></li>
+			<li><a href="#tab9"></span><span class="tab-text">CALCULAR UNA DETERMINANTE DE UNA MATRIZ DE 3*3</span></a></li>
+			<li><a href="#tab10"></span><span class="tab-text">REDUCCION DE MATRICES DE GAUSS JORDAN 2*2</span></a></li>
+			<li><a href="#tab11"></span><span class="tab-text">REDUCCION DE MATRICES DE GAUSS JORDAN 3*3</span></a></li>
+			<li><a href="#tab12"></span><span class="tab-text">MATRIZ INVERSA</span></a></li>
+			<li><a href="#tab13"></span><span class="tab-text">MATRIZ ADJUNTA</span></a></li>
+			
+		</ul>
+		
+
+
+		<div class="secciones">
+			<article id="tab1">
+				<h1>¿Que es una matriz?</h1>
+               
+				<p>En programación y matemáticas, una matriz es una estructura de datos bidimensional que consta de filas y columnas. Se puede imaginar como una tabla o una cuadrícula organizada en filas y columnas. Cada elemento de la matriz se llama "elemento" o "entrada". Las matrices se utilizan para almacenar y manipular conjuntos de datos relacionados. Cada elemento en una matriz se identifica mediante sus índices, que indican su posición en la matriz. El índice de la fila y la columna se utiliza para acceder a un elemento específico. Las matrices pueden ser utilizadas para una amplia gama de aplicaciones, como representar imágenes, almacenar datos en tablas, realizar operaciones matemáticas como multiplicación de matrices, y mucho más. Son una estructura de datos fundamental en la programación y las matemáticas, y se utilizan en muchos algoritmos y problemas computacionales.</p>
+            </article>
+		</div>
+		<div class="secciones">
+			<article id="tab2">
+				<h1>SUMA DE MATRICES 2*2</h1>
+				<p>A continuación se mostrará el proceso para poder realizar una suma de matrices de 2*2, es decir, 2 filas y 2 columnas, en éste caso la suma solo se puede realizar si ambas matrices tienen la misma cantidad de filas y columnas, es decir que tiene que ser cuadrada.
+                    La suma entre dos matrices se efectúa sumando cada número de la primer matriz con cada número que se encuentre en la misma posicíon en la segunda matriz, en este caso se suma el número que se encuentre en la fila uno y columna uno de la primer matriz con el número que está en la fila uno y columna uno de la segunda matriz y éste será de la fila uno y columna uno de la matriz resultante: A11 + B11 = C11, lo mismo se realiza con los demás números de las matrices: A12 + B12 = C12. </p>
+			</article>
+		
+		
+			<article id="tab3">
+				<h1>SUMA DE MATRICES 3*3</h1>
+				<p>Este proceso es práctricamente el mismo que la suma de matrices de 2*2, solo que en este caso es una matriz con 3 filas y 3 columnas, dicha suma solo se puede realizar si la matriz cuenta con la misma cantidad de filas y la misma cantidad de columnas, de no ser así, no es posible realizar el proceso de suma de matrices.</p><br>
+				<div class="Alinear_Flex">
+                    <iframe width="500" height="279" src="https://www.youtube.com/embed/S89lkpvajyU" title="Suma de matrices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div> 
+			</article>
+		</div>
+		<div class="secciones">
+			<article id="tab4">
+				<h1>RESTA DE MATRICES 2*2</h1>
+				<p>El proceso de resta de una matriz de 2*2 es restar el número de la fila uno de la primer matriz con el número de la fila uno de la segunda matriz, y así sucesivamente, A11 - B11 = C11, A12 - B12 = C12. Esto solo es posible si dicha matriz es cuadrada, es decir, dos filas y dos columnas en ambas matrices.</p><br>
+				
+			</article>
+		
+		
+            <article id="tab5">
+				<h1>RESTA DE MATRICES 3*3</h1>
+               
+				<p>En programación y matemáticas, una matriz es una estructura de datos bidimensional que consta de filas y columnas. Se puede imaginar como una tabla o una cuadrícula organizada en filas y columnas. Cada elemento de la matriz se llama "elemento" o "entrada". Las matrices se utilizan para almacenar y manipular conjuntos de datos relacionados. Cada elemento en una matriz se identifica mediante sus índices, que indican su posición en la matriz. El índice de la fila y la columna se utiliza para acceder a un elemento específico. Las matrices pueden ser utilizadas para una amplia gama de aplicaciones, como representar imágenes, almacenar datos en tablas, realizar operaciones matemáticas como multiplicación de matrices, y mucho más. Son una estructura de datos fundamental en la programación y las matemáticas, y se utilizan en muchos algoritmos y problemas computacionales.</p>
+                <div class="Alinear_Flex">
+                    <iframe width="500" height="279" src="https://www.youtube.com/embed/TFNhQq8wxmY" title="Resta de matrices" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            </article>
+		</div>
+		<div class="secciones"> 
+			<article id="tab6">
+				<h1>MULTIPLICACION DE MATRICES 2*2</h1>
+				<p>A continuación se mostrará el proceso para poder realizar una suma de matrices de 2*2, es decir, 2 filas y 2 columnas, en éste caso la suma solo se puede realizar si ambas matrices tienen la misma cantidad de filas y columnas, es decir que tiene que ser cuadrada.
+                    La suma entre dos matrices se efectúa sumando cada número de la primer matriz con cada número que se encuentre en la misma posicíon en la segunda matriz, en este caso se suma el número que se encuentre en la fila uno y columna uno de la primer matriz con el número que está en la fila uno y columna uno de la segunda matriz y éste será de la fila uno y columna uno de la matriz resultante: A11 + B11 = C11, lo mismo se realiza con los demás números de las matrices: A12 + B12 = C12. </p>
+			</article>
+		
+			<article id="tab7">
+				<h1>MULTIPLICACION DE MATRICES 3*3</h1>
+				<p>Este proceso es práctricamente el mismo que la suma de matrices de 2*2, solo que en este caso es una matriz con 3 filas y 3 columnas, dicha suma solo se puede realizar si la matriz cuenta con la misma cantidad de filas y la misma cantidad de columnas, de no ser así, no es posible realizar el proceso de suma de matrices.</p><br>
+				<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/Tjrm3HsqBXE" title="Multiplicación de matrices | Producto de matrices | Ejemplo 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+			</article>
+
+
+
+			
+
+
+			<div class=" secciones">
+				<article id="tab8">
+					<h1>CALCULAR UNA DETERMINANTE DE UNA MATRIZ DE 2*2</h1>
+					<p>El proceso de resta de una matriz de 2*2 es restar el número de la fila uno de la primer matriz con el número de la fila uno de la segunda matriz, y así sucesivamente, A11 - B11 = C11, A12 - B12 = C12. Esto solo es posible si dicha matriz es cuadrada, es decir, dos filas y dos columnas en ambas matrices.</p><br>
+					<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/bsUUVmeqsdY" title="Determinante de una matriz de 2x2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</article>
+			</div>
+
+			<div class=" secciones">
+				<article id="tab9">
+					<h1>CALCULAR UNA DETERMINANTE DE UNA MATRIZ DE 3*3</h1>
+					<p>La determinante de una matriz 3x3 es un número escalar que se obtiene a partir de los elementos de la matriz y que proporciona información sobre las propiedades y la geometría de la matriz. La determinante de una matriz cuadrada se denota comúnmente como "det(A)" o "|"A"|" y se calcula de la siguiente manera para una matriz 3x3:
+
+					,primera fila: a b c,
+					segunda fila: d e f,
+					tercera fila: g h i,
+					La determinante de A, denotada como det(A) o |A|, se calcula utilizando la siguiente fórmula:
+
+det(A) = a(ei - fh) - b(di - fg) + c(dh - eg)
+
+En esta fórmula, se deben multiplicar los elementos de la primera fila de la matriz por los determinantes de las submatrices 2x2 formadas por los elementos restantes de la matriz, y luego sumar o restar los resultados según corresponda.
+						
+						</p><br>
+					<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/8OnOZvc5rFQ" title="Determinante de una matriz de 3x3 Regla de Sarrus" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</article>
+			</div>
+			<div class=" secciones">
+				<article id="tab10">
+					<h1>REDUCCION DE MATRICES DE GAUSS JORDAN 2*2 </h1>
+					<p>El método de Gauss, también conocido como eliminación de Gauss, es un proceso para reducir una matriz 2x2 a su forma escalonada por filas. A continuación, te mostraré el proceso paso a paso para aplicar el método de Gauss en una matriz 2x2.
+
+						Consideremos la siguiente matriz 2x2: FILA 1: a,b FILA 2: c,d ,   Paso 1: Intercambio de filas (si es necesario)
+						Si el elemento a de la matriz es igual a 0, intercambiamos las filas para que el elemento a sea distinto de 0. Esto se hace para evitar divisiones por cero.
+						
+						Paso 2: Operación elemental de fila
+						Para hacer que el elemento a de la matriz sea igual a 1, multiplicamos la primera fila por 1/a. Luego, restamos la primera fila multiplicada por c/a de la segunda fila, lo que hace que el elemento c sea igual a 0.</p><br>
+						<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/PJJG21lsius" title="Reducción de matrices de 2x2 Método de Gauss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+					
+				</article>
+			</div>
+			<div class=" secciones">
+				<article id="tab11">
+					<h1>REDUCCION DE MATRICES DE GAUSS JORDAN 3*3</h1>
+					<p>La reducción de matrices de 3x3 utilizando el método de Gauss es un proceso similar al utilizado para matrices de 2x2, pero requiere más pasos y cálculos. A continuación, te mostraré el proceso paso a paso para reducir una matriz 3x3 utilizando el método de Gauss:
+
+						Consideremos la siguiente matriz 3x3:
+					FILA 1: a,b,c FILA 2: d,e,f FILA 3: g,h,i    Paso 1: Intercambio de filas (si es necesario)
+					Si el elemento a de la matriz es igual a 0, buscamos una fila no nula debajo de ella y la intercambiamos con la primera fila.
+					
+					Paso 2: Operaciones elementales de fila
+					El objetivo de esta etapa es hacer que los elementos debajo del elemento a en la primera columna sean iguales a cero.
+					
+					2.1. Utilizando la primera fila, realizamos una operación elemental de fila para hacer que el elemento d sea igual a cero. Restamos la primera fila multiplicada por d/a a la segunda fila y la reemplazamos.
+					
+					2.2. Utilizando la primera fila, realizamos una operación elemental de fila para hacer que el elemento g sea igual a cero. Restamos la primera fila multiplicada por g/a a la tercera fila y la reemplazamos.</p><br>
+						<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/WESrEM8YHQE" title="Reducción de matrices de 3x3 Método de Gauss" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+					
+				</article>
+			</div>
+			
+			<div class=" secciones">
+				<article id="tab12">
+					<h1>MATRIZ INVERSA</h1>
+					<p>Para calcular la matriz inversa de una matriz cuadrada, se utiliza el método de la matriz adjunta. A continuación, te mostraré el proceso paso a paso para encontrar la matriz inversa de una matriz cuadrada:
+
+						Consideremos una matriz cuadrada A de tamaño nxn:
+					</p><br>
+					<p>Calcula la matriz adjunta de A:</p>
+					<p>Para cada elemento a_ij de la matriz A, calcula el cofactor C_ij.
+						El cofactor C_ij se calcula como (-1)^(i+j) multiplicado por el determinante de la submatriz obtenida al eliminar la fila i y la columna j de la matriz A.
+						La matriz adjunta de A, denotada como adj(A), se forma al colocar los cofactores C_ij en la posición correspondiente de la matriz transpuesta.</p>
+						<p>Calcula el determinante de A:</p>
+						<p>El determinante de A se denota como det(A) o |A| y se calcula sumando los productos de los elementos de una fila (o columna) de A por sus respectivos cofactores C_ij.</p>
+						<p>Verifica si A es invertible:</p>
+						<p>Si el determinante de A (det(A)) es igual a cero, entonces A no tiene matriz inversa y el proceso se detiene.
+							Si det(A) es diferente de cero, A es invertible y podemos continuar con el siguiente paso.</p>
+							<p>Calcula la matriz inversa de A:</p>
+							<p>La matriz inversa de A, denotada como A^(-1), se obtiene dividiendo la matriz adjunta de A (adj(A)) por el determinante de A (det(A)).
+								Cada elemento de la matriz inversa se obtiene dividiendo el cofactor correspondiente por el determinante de A.
+								Al finalizar estos pasos, obtendrás la matriz inversa A^(-1) si la matriz A es invertible. La matriz inversa tiene la propiedad de que su producto con la matriz original A resulta en la matriz identidad.
+								
+								Es importante tener en cuenta que este proceso puede ser computacionalmente intensivo para matrices grandes y puede requerir el cálculo de muchos determinantes y cofactores.
+								</p>
+
+						<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/ZDiZUrfG_MI" title="Matriz inversa método del adjunto - cofactores | Ejemplo 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+					
+				</article>
+			</div>
+            <div class=" secciones">
+				<article id="tab13">
+					<h1>MATRIZ ADJUNTA</h1>
+					<p>La matriz adjunta, también conocida como matriz adjugada o matriz adjunta adjugada, es una matriz cuadrada asociada a otra matriz cuadrada. Se utiliza en el cálculo de la matriz inversa. A continuación, te mostraré cómo calcular la matriz adjunta de una matriz cuadrada.
+
+						Consideremos una matriz cuadrada A de tamaño nxn:
+						
+						Calcula los cofactores de A:
+						
+						Para cada elemento a_ij de la matriz A, calcula el cofactor C_ij.
+						El cofactor C_ij se calcula como (-1)^(i+j) multiplicado por el determinante de la submatriz obtenida al eliminar la fila i y la columna j de la matriz A.
+						Forma la matriz de cofactores:
+						
+						Crea una matriz C del mismo tamaño que A, donde cada elemento C_ij es igual al cofactor C_ij calculado anteriormente.
+						Transpone la matriz de cofactores:
+						
+						Intercambia las filas por columnas en la matriz C, es decir, el elemento C_ij se coloca en la posición C_ji.
+						La matriz resultante es la matriz adjunta de A, denotada como adj(A). La matriz adjunta tiene la misma dimensión que A y se utiliza en el cálculo de la matriz inversa, como se mencionó anteriormente.
+						
+						Es importante destacar que el cálculo de la matriz adjunta puede ser computacionalmente intensivo para matrices grandes, ya que implica el cálculo de determinantes y cofactores de submatrices. Sin embargo, este proceso es necesario para determinar la matriz inversa de una matriz cuadrada.
+					</p><br>
+					
+
+						<div class="Alinear_Flex"></div><iframe width="500" height="279" src="https://www.youtube.com/embed/l51Epr3SY1Y" title="Matriz adjunta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					
+				</article>
+			</div>
+
+			
+            
+		</div>
+	</div>
+	
+</body>
+</html>
